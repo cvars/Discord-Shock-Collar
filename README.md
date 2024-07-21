@@ -11,6 +11,7 @@ This project is for research purposes only. I am in no way responsible for any h
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Explanation](#code-explanation)
+- [Credits](#credits)
 
 ## Hardware Requirements
 - Microcontroller (e.g., ESP32)
@@ -74,5 +75,8 @@ This project is for research purposes only. I am in no way responsible for any h
 - **Functions**:
     - `sendData()`: Sends data over the serial port.
     - `sendKeepAlive()`: Sends a keep-alive signal every 10 seconds.
-    - `client.on("ready")`: Logs in to Discord.
+    - `client.on("ready")`: Notifies when signed into Discord.
     - `client.on('messageCreate')`: Processes Discord messages and sends commands to the microcontroller.
+
+## Credits
+- Special thanks to [kubagp1](https://github.com/kubagp1) for providing valuable references and insights used in this project.
