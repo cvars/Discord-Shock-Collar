@@ -15,7 +15,7 @@ This project is for research purposes only. I am in no way responsible for any h
 
 ## Hardware Requirements
 - Microcontroller (e.g., ESP32)
-- RF Transmitter
+- RF Transmitter (433 mhz)
 - Shock collar (pet998d)
 - LED (optional for visual feedback)
 - Connecting wires
